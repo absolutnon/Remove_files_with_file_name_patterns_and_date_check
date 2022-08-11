@@ -6,6 +6,7 @@ import datetime
 
 file_path = "D:/Media/"
 pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.[mp4|MOV|mov|MP4|mxf|MXF]"
+pattern_stgmgrlog = r"^storage_manager[\w\.\-]+gz$"
 day_limit = 14
 result = []
 removed_files = []
@@ -22,7 +23,7 @@ def remove_media(file_pattern, path_to_file):
                 counter += 1
                 log_deleted_files(file)         #recall create deleted log function
                 print(file_path + file)
-    file_total = "Total file deleted: " + str(counter) + " files"
+    file_total = "Total files deleted: " + str(counter) + " files"
     log_deleted_files(file_total)
 
 def check_date_older_than(file, days):
@@ -37,5 +38,6 @@ def log_deleted_files(file_removed):
 
 #recall function to do the file search, remove and create logs
 remove_media(pattern, file_path)
+remove_media(pattern_stgmgrlog, file_path)
 
 
