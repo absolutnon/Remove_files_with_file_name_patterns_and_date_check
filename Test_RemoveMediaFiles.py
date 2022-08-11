@@ -5,7 +5,7 @@ import time
 import datetime
 
 file_path = "D:/Media/"
-pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.[mp4|MOV|mov|MP4|mxf|MXF]"
+pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w{3,4}"
 pattern_stgmgrlog = r"^storage_manager[\w\.\-]+gz$"
 day_limit = 14
 result = []
