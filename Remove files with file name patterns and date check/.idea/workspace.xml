@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9266025b-12e2-4b6a-96a7-cc7273167a3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RemoveMediaFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RemoveMediaFiles.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_RemoveMediaFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_RemoveMediaFiles.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/RemoveMediaFiles.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/RemoveMediaFiles.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/warn-RemoveMediaFiles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/RemoveMediaFiles/xref-RemoveMediaFiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Test_RemoveMediaFiles.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Test_RemoveMediaFiles.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/warn-Test_RemoveMediaFiles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Test_RemoveMediaFiles/xref-Test_RemoveMediaFiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/RemoveMediaFiles.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Test_RemoveMediaFiles.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CrVdIH2ARYgGLXb49xuVhNvnpd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager">
+    <configuration name="RemoveMediaFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Remove files with file name patterns and date check" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RemoveMediaFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.RemoveMediaFiles" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9266025b-12e2-4b6a-96a7-cc7273167a3a" name="Changes" comment="" />
+      <created>1659560778163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659560778163</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
