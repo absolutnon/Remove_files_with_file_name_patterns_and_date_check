@@ -6,7 +6,8 @@ import datetime
 
 file_path = "D:/Media/"
 #file_path = "C:/Users/Pahuton.Sriwichai/OneDrive - GB News/Documents/RemoveMediaFiles/" #Test Path
-pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w{3,4}"
+pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w+"
+#pattern = r"^[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\.\w+"
 pattern_stgmgrlog = r"^storage_manager[\w\.\-]+gz$"
 day_limit = 14
 result = []

@@ -5,7 +5,9 @@ import time
 import datetime
 
 file_path = "D:/Media/"
-pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w{3,4}"
+#file_path = "C:/Users/Pahuton.Sriwichai/OneDrive - GB News/Documents/RemoveMediaFiles/" #Test Path
+pattern = r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w+"
+#pattern = r"^[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\.\w+"
 pattern_stgmgrlog = r"^storage_manager[\w\.\-]+gz$"
 day_limit = 14
 result = []
@@ -21,10 +23,11 @@ def remove_media(file_pattern, path_to_file):
                 removed_files.append(file)      #Add removed fils to a list
                 #os.remove(file_path + file)     #remove file that already if it's older than specify date limit
                 counter += 1
-                log_deleted_files(file)         #recall create deleted log function
+                #log_deleted_files(file)         #recall create deleted log function
                 print(file_path + file)
     file_total = "Total files will be deleted: " + str(counter) + " files"
-    log_deleted_files(file_total)
+    #log_deleted_files(file_total)
+    print(file_total)
 
 def check_date_older_than(file, days):
     file_time = path.getctime(file)
