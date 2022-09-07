@@ -5,14 +5,16 @@ from pathlib import Path
 import re
 import time
 import shutil
+import datetime
 
 def main():
     delete_file_count = 0
-    #file_path = "D:/Media/"
-    file_path = "C:/Users/Pahuton.Sriwichai/OneDrive - GB News/Documents/RemoveMediaFiles/"
+    file_path = "D:/Media/"
+    #file_path = "C:/Users/Pahuton.Sriwichai/OneDrive - GB News/Documents/RemoveMediaFiles/"
     patterns = [r"^([\w]{8})-([\w]{4})-([\w]{4})-([\w]{4})-([\w]{12})\.\w+", r"^storage_manager[\w\.\-]+gz$"]
-    days = 0.001
+    days = 5
     matched_file = []
+    log_file_name = "D:/Removed_files_" + datetime.datetime.now().strftime("%Y_%m_%d-%I%M_%p") + ".txt"
 
     #get current time and convert to seconds
     current_in_seconds = time.time() - (days * 24 * 60 * 60)
@@ -25,9 +27,14 @@ def main():
             file_age = get_file_age(file_path, file)
             if current_in_seconds >= file_age:
                 remove_file(file_path, file)
+                write_log_file(file_path, file, log_file_name)
                 delete_file_count += 1
-    
-        print("Total files delete: " + str(delete_file_count))
+
+        totalName = "Total files deleted: "
+        totalfile = str(delete_file_count)
+        print(totalName + totalfile)
+        write_log_file(totalName,totalfile, log_file_name)
+    os.startfile(log_file_name)
 
 def remove_file(Path, file):
     # removing the file
@@ -56,6 +63,12 @@ def get_file_age(file_path, file):
 
 	# returning the time
 	return ctime
+
+def write_log_file(file_path, file_name, log_file_name):
+    with open(log_file_name, "a") as file_rm:
+        file_rm.writelines(f"{file_path} {file_name} is removed successfully" + "\n")
+        #print(f"{file_path} {file_name} is removed successfully")
+    
 
 if __name__ == '__main__':
     main()
